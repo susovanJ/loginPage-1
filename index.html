@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="main-div">
+            <form>
+                <div class="first-div">
+                    <label for="fname" id="first">First Name</label>
+                    <input type="text" id="fname" name="fname">
+                </div>
+                
+                <div class="second-div">
+                    <label for="mname" id="second">Middle Name</label>
+                    <input type="text" id="mname" name="mname">
+                </div>
+               
+                <div class="third-div">
+                    <label for="Lname" id="third">Last Name</label>
+                    <input type="text" id="Lname" name="Lname">
+                </div>
+
+                <div class="course-div">
+                    <label for="course" id="four">Course</label>
+                    <div class="inner-course-div">
+                        <select name="course" id="course">
+                            <option value="Course">Course</option>
+                            <option value="BCA">BCA</option>
+                            <option value="MCA">MCA</option>
+                            <option value="CSC">CSC</option>
+                            <option value="MSC">MSC</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="gender-div">
+                    <p>Gender</p>
+                    <div class="inner-gender-div">
+                        <input type="radio" id="male" name="gender" value="Male">
+                        <label for="male" id="one">Male</label><br>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female" id="two">Female</label><br>
+                        <input type="radio" id="Other" name="gender" value="Other">
+                        <label for="Other" id="three">Other</label>
+                    </div>
+                </div>
+
+                <div class="phone-div">
+                    <label for="Phone" id="six-ph">Phone :</label>
+                    <input type="tel" id="phone" name="Phone" value="+91">
+                </div>
+
+                <div class="address-div">
+                    <label for="Address" id="address">Address</label>
+                    <textarea name="Address" id="address-input" cols="30" rows="5"></textarea>
+                </div>
+
+                <div class="email-div">
+                    <label for="email" id="email">Email:</label>
+                    <input type="email" id="email-input" name="email">
+                </div>
+
+                <div class="pwd-div">
+                    <label for="pwd" id="password">Password:</label>
+                    <input type="password" id="password-input" name="pwd">
+                </div>
+
+                <div class="repwd-div">
+                    <label for="repwd" id="repwd">Re-type Password:</label>
+                    <input type="password" id="repwd-input" name="repwd">
+                </div>
+
+                <button type="submit" from="form1" value="Submit" id="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>

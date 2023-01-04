@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#main-div{
+    border: 1px solid transparent;
+    max-width: min(650px,100%);
+    margin: auto;
+    background: -webkit-linear-gradient(left, rgb(13,139,116) 0%,rgb(222,71,172) 100%);
+    margin-top: 5px;
+    border-radius: 20px;
+    padding-top: 30px;
+}
+.first-div, .second-div, .third-div, .course-div, .gender-div, .phone-div, .address-div, .email-div, .pwd-div, .repwd-div{
+    width: 90%;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-between;
+}
+#first, #second, #third, #four, .gender-div, #six-ph, #address, #email , #password, #repwd{
+    color: white;
+    font-size: 1.35rem;
+}
+#fname, #mname, #Lname, .inner-course-div, .inner-gender-div, #phone, #email-input, #password-input, #repwd-input{
+    width: 65%;
+}
+#course{
+    width: 150px;
+    height: 100%;
+}
+.gender-div{
+    align-items: center;
+}
+.address-div{
+    flex-direction: column;
+}
+#address-input{
+    width: 300px;
+    height: 120px;
+}
+.repwd-div{
+    align-items: center;
+}
+#repwd{
+    width: 100px;
+}
+#repwd-input{
+    height: 25px;
+}
+#submit{
+    display: block;
+    font-size: 1.5rem;
+    margin:20px auto;
+    background-color: #082d27;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+#submit:hover{
+    background-color: #075f51;
+}
+input, select,textarea{
+    border: none;
+    border-radius: 5px;
+}
+@media screen and (max-width:450px) {
+    #fname, #mname, #Lname, .inner-course-div, .inner-gender-div, #phone, #email-input, #password-input, #repwd-input{
+        width: 60%;
+    }
+    #address-input{
+        width: 100%;
+    }
+}
